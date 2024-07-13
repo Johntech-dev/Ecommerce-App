@@ -4,7 +4,7 @@
     "slug": "ecommerce",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -16,10 +16,11 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {  
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+      "adaptiveIcon": {
+        "foregroundImage": "../assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.johntechdev.ecommerce"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "085efdea-1e95-4bd2-a189-3c85bdbbff81"
+      }
     }
   }
 }
